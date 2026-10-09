@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>图标库预览</title>
+<style>
+body{background:#111;color:#fff;padding:20px;font-family:system-ui;}
+h2{text-align:center;}
+#iconBox{margin-top:30px;}
+</style>
+</head>
+<body>
+<h2>图标库预览（点击图标复制链接）</h2>
+<div id="iconBox"></div>
+
+<script src="./newIconLib.js"></script>
+<script>
+// 页面加载完成渲染全部图标
+window.onload = ()=>{
+  iconLib.renderAll("#iconBox");
+}
+</script>
+</body>
+</html>
